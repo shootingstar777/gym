@@ -1,0 +1,100 @@
+import Vue from 'vue'
+import {
+  Button,
+  Form,
+  FormItem,
+  Input,
+  Header,
+  Container,
+  Main,
+  Icon,
+  Message,
+  Aside,
+  Menu,
+  MenuItemGroup,
+  MenuItem,
+  BreadcrumbItem,
+  Breadcrumb,
+  Card,
+  Row,
+  Col,
+  Table,
+  TableColumn,
+  Switch,
+  Tooltip,
+  Pagination,
+  Tag,
+  RadioGroup,
+  Radio,
+  Dialog,
+  Submenu,
+  Select,
+  Option,
+  InputNumber,
+  Divider,
+  Descriptions,
+  DescriptionsItem,
+  Loading,
+  Upload,
+  Empty,
+  Dropdown,
+  DropdownItem,
+  DropdownMenu,
+  Collapse,
+  CollapseItem,
+  InfiniteScroll,
+  Image,
+  MessageBox,
+  Tabs,
+  TabPane,
+} from 'element-ui'
+
+
+Vue.use(Button)
+Vue.use(Form)
+Vue.use(FormItem)
+Vue.use(Input)
+Vue.use(Header)
+Vue.use(Container)
+Vue.use(Main)
+Vue.use(Aside)
+Vue.use(Icon)
+Vue.use(Menu)
+Vue.use(Submenu)
+Vue.use(MenuItemGroup)
+Vue.use(MenuItem)
+Vue.use(BreadcrumbItem)
+Vue.use(Breadcrumb)
+Vue.use(Card)
+Vue.use(Row)
+Vue.use(Col)
+Vue.use(Table)
+Vue.use(TableColumn)
+Vue.use(Switch)
+Vue.use(Tooltip)
+Vue.use(Pagination)
+Vue.use(Tag)
+Vue.use(RadioGroup)
+Vue.use(Radio)
+Vue.use(Dialog)
+Vue.use(Select)
+Vue.use(Option)
+Vue.use(InputNumber)
+Vue.use(Divider)
+Vue.use(Descriptions)
+Vue.use(DescriptionsItem)
+Vue.use(Loading)
+Vue.use(Upload)
+Vue.use(Empty)
+Vue.use(Dropdown)
+Vue.use(DropdownItem)
+Vue.use(DropdownMenu)
+Vue.use(Collapse)
+Vue.use(CollapseItem)
+Vue.use(InfiniteScroll)
+Vue.use(Image)
+Vue.use(Tabs)
+Vue.use(TabPane)
+Vue.use(Switch)
+Vue.prototype.$confirm=MessageBox.confirm
+Vue.prototype.$message = Message
